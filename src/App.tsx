@@ -609,7 +609,7 @@ function App() {
                   title: 'The Future of Autonomous Airspace',
                   excerpt: 'Exploring how AI-driven drone coordination will reshape urban mobility and defense operations.',
                   author: 'Dr. Alex Chen',
-                  date: '2024-01-15',
+                  date: '2025-09-15',
                   readTime: '5 min read',
                   category: 'Technology',
                   image: 'https://images.pexels.com/photos/442587/pexels-photo-442587.jpeg?auto=compress&cs=tinysrgb&w=400'
@@ -618,7 +618,7 @@ function App() {
                   title: 'Blockchain in Drone Traffic Management',
                   excerpt: 'How distributed ledger technology ensures secure and transparent flight path negotiations.',
                   author: 'Sarah Martinez',
-                  date: '2024-01-12',
+                  date: '2025-08-12',
                   readTime: '7 min read',
                   category: 'Blockchain',
                   image: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=400'
@@ -627,7 +627,7 @@ function App() {
                   title: 'Multi-Agent AI Negotiation Protocols',
                   excerpt: 'Deep dive into the algorithms that enable real-time conflict resolution between autonomous drones.',
                   author: 'Michael Kim',
-                  date: '2024-01-10',
+                  date: '2025-07-23',
                   readTime: '6 min read',
                   category: 'AI Research',
                   image: 'https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=400'
@@ -915,7 +915,7 @@ function App() {
                       value={contactForm.company}
                       onChange={(e) => setContactForm({...contactForm, company: e.target.value})}
                       className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600/50 rounded-lg text-white placeholder-gray-400 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-all duration-300"
-                      placeholder="Aerospace Defense Corp"
+                      placeholder="Company Name"
                     />
                   </div>
                   
@@ -928,7 +928,7 @@ function App() {
                       onChange={(e) => setContactForm({...contactForm, message: e.target.value})}
                       rows={6}
                       className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600/50 rounded-lg text-white placeholder-gray-400 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-all duration-300 resize-none"
-                      placeholder="Tell us about your drone coordination needs, integration requirements, or partnership opportunities..."
+                      placeholder="Tell us ...."
                       required
                     />
                   </div>
